@@ -45,7 +45,7 @@ class Demo
 
 public class LaunchStatic {
 public static void main(String[] args) {
-	
+	System.out.println("risna");
 		
 		Demo.disp();
 		Demo d=new Demo();
