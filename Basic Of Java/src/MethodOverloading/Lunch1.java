@@ -5,8 +5,8 @@ package MethodOverloading;
 public class Lunch1 {
 
 	public static void main(String[] args) {
-   System.out.println("its actual main method");		
-		
+   System.out.println("its actual main method");	
+   main(0);		
 	}
 	
 	public static void main(int [] args) {
