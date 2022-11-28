@@ -22,6 +22,5 @@ public class ExceptionalExam1 {
 			System.out.println("You are trying to divide by zero illogical ");
 		}
 		System.out.println("Connection is terminated");
-		
 	}
 }
