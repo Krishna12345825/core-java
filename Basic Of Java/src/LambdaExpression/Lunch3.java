@@ -1,4 +1,5 @@
 package LambdaExpression;
+
 @FunctionalInterface
 interface Add
 {
