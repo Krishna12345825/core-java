@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="11. Methods in Java and Fundamental of stack and heap area"/>
+	<classpathentry kind="src" path="12.  Method Overloading and Array Introduction"/>
+	<classpathentry kind="src" path="13. Array in Java"/>
+	<classpathentry kind="src" path="14. Array in Java part"/>
+	<classpathentry kind="src" path="15. Linear Search, Binary Search, Bubble sort , Arrays class in Java"/>
+	<classpathentry kind="src" path="16. Bubble sort, Guesser Game Project, String in Java part 01"/>
+	<classpathentry excluding="String prog and Encapsulation/" kind="src" path="19. Mutable String and String programming"/>
+	<classpathentry kind="src" path="19. Mutable String and String programming/String prog and Encapsulation"/>
+	<classpathentry kind="src" path="20. String programming, Encapsulation, GitHub Eclipse integration"/>
+	<classpathentry kind="src" path="21. Encapsulation, Constructor, this vs this()"/>
+	<classpathentry kind="src" path="22. Static keyword in Java"/>
+	<classpathentry kind="src" path="23. Static and Inheritance in Java"/>
+	<classpathentry kind="src" path="24. Inheritance ,(inheritedvs overridden vs specialised methods) super, final keyword in Java/src"/>
+	<classpathentry kind="src" path="25. Polymorphism and abstract keyword in Java/Polymorphism and Abstraction"/>
+	<classpathentry kind="src" path="26. HAS Relationship and dependancy injection/Source Code/01-PrimitiveValue-Injection/src"/>
+	<classpathentry kind="src" path="26. HAS Relationship and dependancy injection/Source Code/02-One-One-Association-mapping/src"/>
+	<classpathentry kind="src" path="26. HAS Relationship and dependancy injection/Source Code/03-One-MANY-Association-mapping/src"/>
+	<classpathentry kind="src" path="26. HAS Relationship and dependancy injection/Source Code/04-MANY-ONE-Association-mapping/src"/>
+	<classpathentry kind="src" path="26. HAS Relationship and dependancy injection/Source Code/05-MANY-MANY-Association-mapping/src"/>
+	<classpathentry kind="src" path="32. Import statements, Functional interface, Lambda expression"/>
+	<classpathentry kind="src" path="33. Exception Handling"/>
+	<classpathentry kind="src" path="34. Exception Handling part 2/Exception part2"/>
+	<classpathentry kind="src" path="35. Exception handling part 03"/>
+	<classpathentry kind="src" path="43. Collection in Java/Collection"/>
+	<classpathentry kind="src" path="6. Data types and Incrementation , Decrementation operator"/>
+	<classpathentry kind="src" path="7. Operators , Conditionals , Switch case in Java"/>
+	<classpathentry kind="src" path="8.  Loops and Pattern Programming"/>
+	<classpathentry kind="src" path="9.  Pattern programming part 02"/>
+	<classpathentry kind="output" path="26. HAS Relationship and dependancy injection/Source Code/01-PrimitiveValue-Injection/bin"/>
+</classpath>
