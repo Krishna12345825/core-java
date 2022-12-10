@@ -13,7 +13,6 @@ public class LunchArrayDeque1
 		ad.add(30);
 		ad.add(30);
 		System.out.println(ad);
-		
 		ad.addFirst(5);
 		ad.addLast(35);
 		System.out.println(ad);
