@@ -11,7 +11,7 @@ class Demo1Thread implements Runnable
 	
 }
 
-public class MyRunnable1 
+public class  MyRunnable1 
 {
 
 	public static void main(String[] args) {
