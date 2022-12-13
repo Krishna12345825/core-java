@@ -13,7 +13,7 @@ public class Lunch2
         all.add(40);
         all.add(50);
         
-        // homogenious type of data is allowed 
+        // Homogeneous type of data is allowed 
         System.out.println(all);
 		System.out.println("******************************");
 		
@@ -43,7 +43,7 @@ public class Lunch2
 		al4.add(44);
 		System.out.println("existing data " + al4);
 		
-al4.add(2, 28);
+        al4.add(2, 28);
 		
 		System.out.println("after adding in 2nd index "+al4);
 		al4.add(0, 5);

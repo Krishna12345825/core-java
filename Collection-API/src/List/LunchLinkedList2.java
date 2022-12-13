@@ -60,7 +60,7 @@ public class LunchLinkedList2
 		System.out.println(litr.previous());
 	}
 	
-	// what if I want to reverse or access data of other claases in reverse dir?
+	// what if I want to reverse or access data of other classes in reverse dire?
 	
 
 	TreeSet ad=new TreeSet();
