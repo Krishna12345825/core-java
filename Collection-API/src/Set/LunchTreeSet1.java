@@ -19,6 +19,7 @@ public class LunchTreeSet1
 		System.out.println(ts.ceiling(50));
 		System.out.println(ts.higher(50));
 		System.out.println(ts.floor(50));
+		
 		System.out.println(ts.lower(50));
 		System.out.println("******************************");
 		
@@ -27,6 +28,6 @@ public class LunchTreeSet1
 		System.out.println(ts.floor(40));
 		System.out.println(ts.lower(40));
 		
-	}
+	}		
 
 }
