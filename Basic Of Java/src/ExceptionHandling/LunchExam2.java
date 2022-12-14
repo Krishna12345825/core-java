@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LunchExam2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 
 		System.out.println("Connection to calc app is established ");
 		try {

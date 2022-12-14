@@ -11,6 +11,7 @@ public class Lunch1
 		al.add(10);
 		al.add(20);
 		al.add(30);
+		
 	// duplicates object are not allow 
 		al.add(30);
 		System.out.println(al);
