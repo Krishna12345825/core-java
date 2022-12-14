@@ -17,8 +17,10 @@ public class TestApp18 {
 
 	public static void main(String[] args) {
 
+		
 		MyThreadsaa t= new MyThreadsaa();
 		t.start();
+	 
 		System.out.println("end of main thread");
 	}
 
