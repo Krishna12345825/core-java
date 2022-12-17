@@ -1,10 +1,7 @@
 package Map;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
 
 class Student1 {
 	private String name;
@@ -79,7 +76,7 @@ public class LaunchMapsCom {
 		
 		while(itr3.hasNext())
 		{
-			Entry data= (Entry)itr3.next();
+			Map.Entry data= (Entry)itr3.next();
 			System.out.println(data.getKey() + " : " + data.getValue());
 		}
 
