@@ -1,0 +1,33 @@
+INSERT INTO studentinfo VALUES(1, 'hyder', 'abbas','najafi', 28, 'Bengaluru');
+INSERT INTO studentinfo VALUES(1, 'hyder','najafi', 28, 'Bengaluru');
+INSERT INTO studentinfo (id, firstname, middlename, lastname,age, city)
+VALUES(1, 'hyder','abbas','najafi', 28, 'Bengaluru');
+
+INSERT INTO studentinfo (id, firstname, lastname,age, city)
+VALUES(1, 'hyder','najafi', 28, 'Bengaluru');
+INSERT INTO studentinfo (id, firstname, lastname,age, city)
+VALUES(?,?,?,?,?);
+
+CREATE TABLE EMPLOYEE(
+id int(5) NOT NULL,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20)NOT NULL,
+salary int(7) NOT NULL
+);
+
+INSERT INTO employee (id, firstname, middlename, lastname,salary)
+VALUES(1, 'hyder','abbas','najafi', 28);
+
+CREATE TABLE newStudents(
+id int(5) auto_increment primary key,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20)NOT NULL,
+age int(3) NOT NULL
+);
+
+INSERT INTO newstudents (firstname, middlename, lastname,age)
+VALUES('hyder','abbas','najafi', 28), ('Nitin','v','M', 28);
+
+select * from studentinfo;

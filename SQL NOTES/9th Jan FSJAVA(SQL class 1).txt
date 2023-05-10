@@ -1,0 +1,124 @@
+INSERT INTO studentinfo VALUES(1, 'hyder', 'abbas','najafi', 28, 'Bengaluru');
+INSERT INTO studentinfo VALUES(1, 'hyder','najafi', 28, 'Bengaluru');
+INSERT INTO studentinfo (id, firstname, middlename, lastname,age, city)
+VALUES(1, 'hyder','abbas','najafi', 28, 'Bengaluru');
+
+INSERT INTO studentinfo (id, firstname, lastname,age, city)
+VALUES(1, 'hyder','najafi', 28, 'Bengaluru');
+INSERT INTO studentinfo (id, firstname, lastname,age, city)
+VALUES(?,?,?,?,?);
+
+CREATE TABLE EMPLOYEE(
+id int(5) NOT NULL,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20)NOT NULL,
+salary int(7) NOT NULL
+);
+
+INSERT INTO employee (id, firstname, middlename, lastname,salary)
+VALUES(1, 'hyder','abbas','najafi', 28);
+
+CREATE TABLE newStudents(
+id int(5) auto_increment primary key,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20)NOT NULL,
+age int(3) NOT NULL
+);
+
+INSERT INTO newstudents (firstname, middlename, lastname,age)
+VALUES('hyder','abbas','najafi', 28), ('Nitin','v','M', 28);
+
+select * from studentinfo;
+
+CREATE TABLE newStudents(
+id INT(5) AUTO_INCREMENT PRIMARY KEY,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20)NOT NULL,
+age int(3) NOT NULL
+);
+
+INSERT INTO newstudent1 VALUES(1,'rohan', 'hirani', 'm', 18);
+
+create table Student(
+id int(5) PRIMARY KEY,
+firstname varchar(40) NOT NULL,
+lastname varchar(40) NOT NULL,
+age int(3) NOT NULL,
+city varchar(20)NOT NULL,
+country varchar(20) NOT NULL
+
+)
+
+INSERT INTO student (id, firstname, lastname,age, city, country)
+VALUES(1,'hyder','najafi', 28,'Blr', 'IND'),
+ (2,'Nitin','M', 28,'Blr', 'IND');
+CREATE TABLE newStudents(
+id int(5) auto_increment primary key,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20)NOT NULL,
+age int(3) NOT NULL,
+number int(10) UNIQUE KEY
+);
+
+create table Student(
+id int(5) PRIMARY KEY,
+firstname varchar(40) NOT NULL,
+lastname varchar(40) NOT NULL,
+age int(3) NOT NULL,
+city varchar(20)NOT NULL,
+country varchar(20) NOT NULL,
+number int(10) unique key,
+email varchar(20) unique key
+
+)
+select * from student;
+select id, firstname, city from student;
+select firstname from student;
+select firstname, lastname, age from student where age<20;
+
+INSERT INTO student (id, firstname, lastname,age, city, country, number, email)
+VALUES(4,'rohan','najafi', 18,'Blr', 'IND',123, 'rohan@'),
+ (5,'rohit','M', 19,'Blr', 'IND', 321, 'rohit@');
+
+insert into employee (id, firstname,middlename, lastname, salary)
+values(11,'rohan', 'hirani', 'b', 30000),
+(21,'rohit', 'hiran', 'm', 40000),
+(31,'rohi', 'h', 'meh', 50000);
+
+create table employee(
+id int(5) primary key,
+firstname varchar(50) not null,
+lastname varchar(50) not null,
+age int(3) not null,
+salary int(10)not null,
+city varchar(10) not null
+)
+
+select * from employee
+
+use ineuron;
+
+
+select firstname, age from  employee where salary>30000 ;
+select * from  employee where firstname ='ROHAN';
+
+select firstname as name , lastname as sirname from employee;
+update employee set lastname='kumar' where id=1;
+update employee set age=21 where id=3
+
+use ineuron;
+
+update employee set city ='bengaluru' where firstname="rohan";
+
+alter table employee drop  column city;
+alter table employee add primary key(id)
+alter table employee add column city varchar(10)
+
+delete from employee where id=2;
+
+
+
